@@ -20,3 +20,23 @@
     <a href="https://gitlab.com/hook0/hook0/-/boards">Roadmap</a>
   </p>
 </p>
+
+
+## Learning ressources
+
+- [Website](https://www.hook0.com/)
+- [Documentation](https://documentation.hook0.com/)
+- [Brand](https://github.com/hook0/hook0/tree/master/mediakit)
+
+## Social Media
+
+- [Twitter](https://twitter.com/hook0_)
+- [Youtube](https://www.youtube.com/channel/UCFGvNaoV6Ycdb6uh1rIvMcg)
+- [Discord](https://hook0.com/community)
+
+## Contributing
+
+- [Contributing guide](https://github.com/hook0/hook0/blob/master/contributing.md)
+- [Github Discussions](https://github.com/hook0/hook0/discussions)
+- [Wishlist](https://github.com/hook0/hook0/discussions/categories/ideas)
+- [Issues tracker](hhttps://github.com/hook0/hook0/issues)
