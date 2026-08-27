@@ -32,6 +32,26 @@
 
 Hook0 is an open-source, self-hostable Webhooks-as-a-Service. If you build a SaaS and want to send webhooks to your users, Hook0 gives you delivery, retries, HMAC signatures, and monitoring behind one API instead of building and running that infrastructure yourself. Run it self-hosted, or use [Hook0 Cloud](https://www.hook0.com).
 
+## SDKs
+
+Official SDKs for eleven languages. Each one sends events and verifies HMAC signatures on incoming webhooks.
+
+| Language | Repository |
+|---|---|
+| Rust | [hook0-rust](https://github.com/hook0/hook0-rust) |
+| Go | [hook0-go](https://github.com/hook0/hook0-go) |
+| Python | [hook0-python](https://github.com/hook0/hook0-python) |
+| TypeScript / JavaScript | [hook0-typescript](https://github.com/hook0/hook0-typescript) |
+| PHP | [hook0-php](https://github.com/hook0/hook0-php) |
+| Ruby | [hook0-ruby](https://github.com/hook0/hook0-ruby) |
+| Java | [hook0-java](https://github.com/hook0/hook0-java) |
+| Kotlin | [hook0-kotlin](https://github.com/hook0/hook0-kotlin) |
+| C# / .NET | [hook0-csharp](https://github.com/hook0/hook0-csharp) |
+| Lua | [hook0-lua](https://github.com/hook0/hook0-lua) |
+| Zig | [hook0-zig](https://github.com/hook0/hook0-zig) |
+
+Browse them all: https://github.com/orgs/hook0/repositories?q=topic%3Asdk
+
 ## Resources
 
 - [Website](https://www.hook0.com/)
