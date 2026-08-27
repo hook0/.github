@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="How Hook0 works: your SaaS makes one API call to Hook0, which delivers signed events with retries to your users' endpoints. Outbound only.">
+  <defs>
+    <linearGradient id="hookGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D5AF3"/>
+      <stop offset="0.55" stop-color="#BD29BB"/>
+      <stop offset="1" stop-color="#FE7D28"/>
+    </linearGradient>
+    <marker id="arrIn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#57606A"/>
+    </marker>
+    <marker id="arrOut" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#1D5AF3"/>
+    </marker>
+  </defs>
+  <style>
+    text{font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;}
+    .t{fill:#1A1A1A}.sub{fill:#57606A}.nodeLabel{fill:#1A1A1A;font-weight:600}
+  </style>
+
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" class="t">How Hook0 delivers your webhooks</text>
+
+  <!-- Your SaaS -->
+  <rect x="34" y="128" width="150" height="64" rx="12" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="109" y="165" text-anchor="middle" font-size="16" class="nodeLabel">Your SaaS</text>
+
+  <!-- input arrow -->
+  <text x="287" y="150" text-anchor="middle" font-size="13" class="sub">1 API call</text>
+  <line x1="184" y1="160" x2="362" y2="160" stroke="#57606A" stroke-width="2" marker-end="url(#arrIn)"/>
+
+  <!-- Hook0 hub -->
+  <rect x="370" y="118" width="160" height="84" rx="14" fill="url(#hookGrad)"/>
+  <text x="450" y="152" text-anchor="middle" font-size="25" font-weight="800" fill="#FFFFFF">Hook0</text>
+  <text x="450" y="180" text-anchor="middle" font-size="12.5" fill="#FFFFFF" fill-opacity="0.92">delivers, retries, signs</text>
+
+  <!-- fan-out T-branch -->
+  <text x="632" y="70" text-anchor="middle" font-size="12" class="sub">1 &#8594; N</text>
+  <line x1="530" y1="160" x2="632" y2="160" stroke="#1D5AF3" stroke-width="3"/>
+  <line x1="632" y1="86" x2="632" y2="234" stroke="#1D5AF3" stroke-width="3"/>
+  <line x1="632" y1="86" x2="716" y2="86" stroke="#1D5AF3" stroke-width="3" marker-end="url(#arrOut)"/>
+  <line x1="632" y1="160" x2="716" y2="160" stroke="#1D5AF3" stroke-width="3" marker-end="url(#arrOut)"/>
+  <line x1="632" y1="234" x2="716" y2="234" stroke="#1D5AF3" stroke-width="3" marker-end="url(#arrOut)"/>
+
+  <!-- user endpoints -->
+  <rect x="722" y="62" width="150" height="48" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="797" y="91" text-anchor="middle" font-size="14" class="nodeLabel">Your user</text>
+  <rect x="722" y="136" width="150" height="48" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="797" y="165" text-anchor="middle" font-size="14" class="nodeLabel">Your user</text>
+  <rect x="722" y="210" width="150" height="48" rx="10" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="797" y="239" text-anchor="middle" font-size="14" class="nodeLabel">Your user</text>
+
+  <!-- subtitle -->
+  <text x="450" y="300" text-anchor="middle" font-size="13.5" class="sub">Outbound only: Hook0 delivers your events to your users' endpoints. It does not receive third-party webhooks.</text>
+</svg>
