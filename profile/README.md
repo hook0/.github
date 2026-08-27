@@ -32,9 +32,16 @@
 
 Hook0 is an open-source, self-hostable Webhooks-as-a-Service. If you build a SaaS and want to send webhooks to your users, Hook0 gives you delivery, retries, HMAC signatures, and monitoring behind one API instead of building and running that infrastructure yourself. Run it self-hosted, or use [Hook0 Cloud](https://www.hook0.com).
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hook0/.github/main/profile/assets/what-is-hook0-dark.svg">
+    <img width="820" alt="How Hook0 works: your SaaS makes one API call to Hook0, which delivers signed events with retries to your users' endpoints. Outbound only — Hook0 does not receive third-party webhooks." src="https://raw.githubusercontent.com/hook0/.github/main/profile/assets/what-is-hook0-light.svg">
+  </picture>
+</p>
+
 ## SDKs
 
-Official SDKs for eleven languages. Each one sends events and verifies HMAC signatures on incoming webhooks.
+Official SDKs for eleven languages. Each one sends events and verifies HMAC signatures on incoming webhooks, and most are built on the standard library alone, with no third-party runtime dependencies.
 
 | Language | Repository |
 |---|---|
